@@ -3,7 +3,7 @@
 🤖 Express.js + Prisma + TypeScript starter and boilerplate packed with useful development features.</h5>
 <br/>
 
-## Project Description
+## Description
 
 Starter template and boilerplate combining Express.js, Prisma, and TypeScript. This project setup offers a well-organized and type-safe environment for building scalable backend applications. With Express.js as the lightweight server framework, Prisma as the powerful ORM for seamless database interactions, and TypeScript ensuring type safety and reducing errors, this boilerplate provides a solid foundation for rapid development. Ideal for developers looking to quickly start projects with a structured codebase, best practices, and improved maintainability.
 
