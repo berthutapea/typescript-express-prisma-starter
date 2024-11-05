@@ -61,52 +61,52 @@ This project was created using the following technologies.
 ## Project Structure
 
 ```bash
-│   ├── docs
-│   │    ├── address.md
-│   │    ├── contact.md
-│   │    ├── user.md
-│   ├── prisma
-│   │    ├── migrations
-│   │    ├── schema.prisma
-│   ├── src
-│   │    ├── apps
-│   │    │    ├── database.ts
-│   │    │    ├── logging.ts
-│   │    │    ├── web.ts
-│   │    ├── controllers
-│   │    │    ├── address-controller.ts
-│   │    │    ├── contact-controller.ts
-│   │    │    ├── user-controller.ts
-│   │    ├── errors
-│   │    │    ├── response-error.ts
-│   │    ├── middlewares
-│   │    │    ├── auth-middleware.ts
-│   │    │    ├── error-middleware.ts
-│   │    ├── models
-│   │    │    ├── address-model.ts
-│   │    │    ├── contact-model.ts
-│   │    │    ├── page.ts
-│   │    │    ├── user-model.ts
-│   │    ├── routes
-│   │    │    ├── api.ts
-│   │    │    ├── public-api.ts
-│   │    ├── services
-│   │    │    ├── address-service.ts
-│   │    │    ├── contact-service.ts
-│   │    │    ├── user-service.ts
-│   │    ├── types
-│   │    │    ├── user-request.ts
-│   │    ├── validations
-│   │    │    ├── address-validation.ts
-│   │    │    ├── contact-validation.ts
-│   │    │    ├── user-validation.ts
-│   │    │    ├── validation.ts
-│   │    ├── main.ts
-│   ├── tests
-│   │    ├── address.test.ts
-│   │    ├── contact.test.ts
-│   │    ├── test-util.ts
-│   │    ├── user.test.ts
+├── docs
+│    ├── address.md
+│    ├── contact.md
+│    ├── user.md
+├── prisma
+│    ├── migrations
+│    ├── schema.prisma
+├── src
+│    ├── apps
+│    │    ├── database.ts
+│    │    ├── logging.ts
+│    │    ├── web.ts
+│    ├── controllers
+│    │    ├── address-controller.ts
+│    │    ├── contact-controller.ts
+│    │    ├── user-controller.ts
+│    ├── errors
+│    │    ├── response-error.ts
+│    ├── middlewares
+│    │    ├── auth-middleware.ts
+│    │    ├── error-middleware.ts
+│    ├── models
+│    │    ├── address-model.ts
+│    │    ├── contact-model.ts
+│    │    ├── page.ts
+│    │    ├── user-model.ts
+│    ├── routes
+│    │    ├── api.ts
+│    │    ├── public-api.ts
+│    ├── services
+│    │    ├── address-service.ts
+│    │    ├── contact-service.ts
+│    │    ├── user-service.ts
+│    ├── types
+│    │    ├── user-request.ts
+│    ├── validations
+│    │    ├── address-validation.ts
+│    │    ├── contact-validation.ts
+│    │    ├── user-validation.ts
+│    │    ├── validation.ts
+│    ├── main.ts
+├── tests
+│    ├── address.test.ts
+│    ├── contact.test.ts
+│    ├── test-util.ts
+│    ├── user.test.ts
 ├── .env.example
 ├── .gitignore
 ├── LICENSE
